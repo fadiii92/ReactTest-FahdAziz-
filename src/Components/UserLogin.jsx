@@ -86,8 +86,8 @@ function UserLogin() {
                         {isSubmitting ? '....Loading' : 'Submit'}
                     </button>
 
-                    <p>To Create a Company Account </p><Link to={'/register'}>Click Here</Link>
-                    <p>Have a User Account </p><Link to={'/UserLogin'}>Click Here to Login</Link><br />
+                    <p>To Create a Company Account </p><Link className = 'underline text-blue-500' to={'/register'}>Click Here</Link>
+                    <p>Have a User Account </p><Link className = 'underline text-blue-500' to={'/UserLogin'}>Click Here to Login</Link><br />
                     <span>{errormessage !== null && 'could not find owner'}</span>
                 </form>
             </div>

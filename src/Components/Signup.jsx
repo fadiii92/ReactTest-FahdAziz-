@@ -40,7 +40,7 @@ function Signup() {
     
     localStorage.setItem('companies', JSON.stringify(previousData));
     
-    navigate('login')
+    navigate('/login')
 };
 
 
@@ -109,7 +109,7 @@ function Signup() {
             Submit
           </button>
 
-          <p>Already Have an Account</p> <Link to = '/login'>Login</Link>
+          <p>Already Have an Account</p> <Link className = 'underline text-blue-500' to = '/login'>Login</Link>
           
         </form>
       </div>

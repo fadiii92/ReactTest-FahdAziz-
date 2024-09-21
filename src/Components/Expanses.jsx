@@ -6,7 +6,7 @@ function Expanses() {
   const [expanse, setExpanse] = useState(0)
 
   const handleExpanse = ()=>{
-      console.log(user, expanse)
+      localStorage.setItem(user+' expanse', JSON.stringify(expanse))
   }
 
   return (
